@@ -63,9 +63,9 @@ This project is licensed under the MIT License.
 **Anant Kumar Jain**
 
 # Contributor
-**Aryan Jangir**
-**Angel Saini** 
-**Akshita Sharma**
+- **Aryan Jangir**
+- **Angel Saini** 
+- **Akshita Sharma**
 
 # Acknowledgments
 - Thanks to the contributors and libraries that made this project possible.
