@@ -1,0 +1,25 @@
+{
+  "name": "nebula_wallet",
+  "version": "1.0.0",
+  "description": "A Bitcoin wallet application that simplifies global freelance transactions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "python backend/app.py",
+    "build": "dfx build",
+    "deploy": "dfx deploy"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0"
+  },
+  "devDependencies": {
+    "dfx": "^0.8.0"
+  },
+  "keywords": [
+    "bitcoin",
+    "wallet",
+    "cryptocurrency",
+    "freelance"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
