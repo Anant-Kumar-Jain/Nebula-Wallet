@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nebula Wallet – Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <!-- Font Awesome for social icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="login-box">
+    <div class="logo-area">
+      <img src="logo.png" alt="Nebula Wallet Logo" />
+      <h1>Nebula Wallet</h1>
+    </div>
+
+    <h2>Welcome Back</h2>
+    <p class="subtext">Sign in to explore your crypto universe</p>
+
+    <form>
+      <label for="email">Username or Email</label>
+      <input type="text" id="email" placeholder="example@email.com" required />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="••••••••"
+        required
+      />
+
+      <div class="row">
+        <label class="remember-me">
+          <input type="checkbox" id="remember" />
+          Remember me
+        </label>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-btn">Sign In</button>
+
+      <div class="or-divider"><span>or</span></div>
+
+      <div class="social-login">
+        <button class="google-btn">
+          <i class="fab fa-google"></i> Google
+        </button>
+        <button class="microsoft-btn">
+          <i class="fab fa-microsoft"></i> Microsoft
+        </button>
+      </div>
+
+      <p class="signup-text">
+        Don't have an account? <a href="signup.html">Sign up</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

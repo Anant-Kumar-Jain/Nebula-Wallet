@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>User Dashboard - Nebula Wallet</title>
+</head>
+<body>
+    <header>
+        <h1>Nebula Wallet - User Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="wallet-options">
+            <h2>Wallet Options</h2>
+            <button onclick="receivePayment()">Receive Payment</button>
+            <button onclick="sendPayment()">Send Payment</button>
+            <button onclick="holdBitcoin()">Hold Bitcoin</button>
+        </section>
+        <section id="trend-chart" style="display:none;">
+            <h2>Bitcoin Trend Chart</h2>
+            <canvas id="bitcoinChart"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Nebula Wallet. All rights reserved.</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

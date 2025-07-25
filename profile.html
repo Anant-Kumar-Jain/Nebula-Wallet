@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Profile - Nebula Wallet</title>
+</head>
+<body>
+    <header>
+        <h1>Nebula Wallet - User Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="profile-settings">
+            <h2>Profile Settings</h2>
+            <form id="profile-form">
+                <input type="text" id="kyc-name" placeholder="Name (as per KYC)" required>
+                <input type="text" id="mobile-number" placeholder="Mobile Number" required>
+                <input type="email" id="email-address" placeholder="Email Address" required>
+                <input type="password" id="password" placeholder="New Password" required>
+                <button type="submit">Update Profile</button>
+            </form>
+        </section>
+        <section id="kyc-verification">
+            <h2>KYC Verification</h2>
+            <button onclick="verifyKYC()">Verify KYC</button>
+        </section>
+        <section id="bank-account-management">
+            <h2>Bank Account Management</h2>
+            <form id="bank-account-form">
+                <input type="text" id="bank-account-number" placeholder="Bank Account Number" required>
+                <input type="text" id="bank-name" placeholder="Bank Name" required>
+                <button type="submit">Add Bank Account</button>
+            </form>
+        </section>
+        <section id="security-settings">
+            <h2>Security Settings</h2>
+            <form id="security-form">
+                <input type="text" id="twofa-code" placeholder="2FA Code" required>
+                <input type="text" id="pin" placeholder="Set PIN" required>
+                <button type="submit">Update Security Settings</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nebula Wallet. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

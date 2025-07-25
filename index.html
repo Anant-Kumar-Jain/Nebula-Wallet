@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nebula Wallet</title>
+</head>
+<body>
+    <header>
+        <h1>Nebula Wallet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>User Authentication</li>
+                <li>Bitcoin Wallet</li>
+                <li>Real-Time BTC Prices</li>
+                <li>Integrated Chat</li>
+                <li>Transaction Management</li>
+                <li>User Dashboard</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>Nebula Wallet simplifies global freelance transactions by leveraging Bitcoin.</p>
+        </section>
+        <section id="greeting">
+            <h2>Greeting</h2>
+            <button onclick="fetchGreeting()">Get Greeting</button>
+            <input type="text" id="newGreeting" placeholder="New Greeting">
+            <button onclick="updateGreeting(document.getElementById('newGreeting').value)">Set Greeting</button>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Nebula Wallet. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
