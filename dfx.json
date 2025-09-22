@@ -1,8 +1,1 @@
-{
-  "canisters": {
-    "my_contract": {
-      "type": "motoko",
-      "source": ["src/my_contract.mo"]
-    }
-  }
-}
+
