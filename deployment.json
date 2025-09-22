@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "my_contract": {
+      "type": "motoko",
+      "main": "my_contract.mo"
+    },
+    "nebula_wallet_assets": {
+      "type": "assets",
+      "source": [
+        "dashboard.html",
+        "index.html",
+        "login.css",
+        "login.html",
+        "logo.png",
+        "profile.html",
+        "signup.html",
+        "style.css",
+        "script.js"
+      ],
+      "dependencies": [
+        "my_contract"
+      ]
+    }
+  },
+  "version": 1
+}
