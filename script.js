@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000'; // Update with your backend URL
+const API_URL = '/api'; // Update with your backend URL
 
 // Signup function
 async function signup(username, password) {
